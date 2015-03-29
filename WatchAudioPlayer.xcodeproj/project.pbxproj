@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5E081C71AC8490A00949874 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E081C61AC8490A00949874 /* AppDelegate.swift */; };
+		F5E081C91AC8490A00949874 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E081C81AC8490A00949874 /* ViewController.swift */; };
+		F5E081CC1AC8490A00949874 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E081CA1AC8490A00949874 /* Main.storyboard */; };
+		F5E081CE1AC8490A00949874 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5E081CD1AC8490A00949874 /* Images.xcassets */; };
+		F5E081D11AC8490A00949874 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5E081CF1AC8490A00949874 /* LaunchScreen.xib */; };
+		F5E081DD1AC8490A00949874 /* WatchAudioPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E081DC1AC8490A00949874 /* WatchAudioPlayerTests.swift */; };
+		F5E081F01AC8493C00949874 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E081EF1AC8493C00949874 /* InterfaceController.swift */; };
+		F5E081F21AC8493C00949874 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E081F11AC8493C00949874 /* NotificationController.swift */; };
+		F5E081F41AC8493C00949874 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5E081F31AC8493C00949874 /* Images.xcassets */; };
+		F5E081F81AC8493C00949874 /* WatchAudioPlayer WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = F5E081F71AC8493C00949874 /* WatchAudioPlayer WatchKit App.app */; };
+		F5E082001AC8493C00949874 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E081FE1AC8493C00949874 /* Interface.storyboard */; };
+		F5E082021AC8493C00949874 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5E082011AC8493C00949874 /* Images.xcassets */; };
+		F5E082051AC8493C00949874 /* WatchAudioPlayer WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F5E081EA1AC8493C00949874 /* WatchAudioPlayer WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F5E0820E1AC8495300949874 /* John Legend-All Of Me.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5E0820D1AC8495300949874 /* John Legend-All Of Me.mp3 */; };
+		F5E082101AC8497700949874 /* SecondInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E0820F1AC8497700949874 /* SecondInterfaceController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5E081D71AC8490A00949874 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5E081B91AC8490A00949874 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5E081C01AC8490A00949874;
+			remoteInfo = WatchAudioPlayer;
+		};
+		F5E081F91AC8493C00949874 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5E081B91AC8490A00949874 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5E081F61AC8493C00949874;
+			remoteInfo = "WatchAudioPlayer WatchKit App";
+		};
+		F5E082031AC8493C00949874 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5E081B91AC8490A00949874 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5E081E91AC8493C00949874;
+			remoteInfo = "WatchAudioPlayer WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F5E0820C1AC8493C00949874 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F5E082051AC8493C00949874 /* WatchAudioPlayer WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F5E081C11AC8490A00949874 /* WatchAudioPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchAudioPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E081C51AC8490A00949874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5E081C61AC8490A00949874 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5E081C81AC8490A00949874 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5E081CB1AC8490A00949874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5E081CD1AC8490A00949874 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F5E081D01AC8490A00949874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F5E081D61AC8490A00949874 /* WatchAudioPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchAudioPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E081DB1AC8490A00949874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5E081DC1AC8490A00949874 /* WatchAudioPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchAudioPlayerTests.swift; sourceTree = "<group>"; };
+		F5E081EA1AC8493C00949874 /* WatchAudioPlayer WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchAudioPlayer WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E081ED1AC8493C00949874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5E081EE1AC8493C00949874 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		F5E081EF1AC8493C00949874 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		F5E081F11AC8493C00949874 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		F5E081F31AC8493C00949874 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F5E081F71AC8493C00949874 /* WatchAudioPlayer WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchAudioPlayer WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E081FD1AC8493C00949874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5E081FF1AC8493C00949874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		F5E082011AC8493C00949874 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F5E0820D1AC8495300949874 /* John Legend-All Of Me.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "John Legend-All Of Me.mp3"; sourceTree = "<group>"; };
+		F5E0820F1AC8497700949874 /* SecondInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondInterfaceController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5E081BE1AC8490A00949874 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E081D31AC8490A00949874 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E081E71AC8493C00949874 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5E081B81AC8490A00949874 = {
+			isa = PBXGroup;
+			children = (
+				F5E081C31AC8490A00949874 /* WatchAudioPlayer */,
+				F5E081D91AC8490A00949874 /* WatchAudioPlayerTests */,
+				F5E081EB1AC8493C00949874 /* WatchAudioPlayer WatchKit Extension */,
+				F5E081FB1AC8493C00949874 /* WatchAudioPlayer WatchKit App */,
+				F5E081C21AC8490A00949874 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5E081C21AC8490A00949874 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5E081C11AC8490A00949874 /* WatchAudioPlayer.app */,
+				F5E081D61AC8490A00949874 /* WatchAudioPlayerTests.xctest */,
+				F5E081EA1AC8493C00949874 /* WatchAudioPlayer WatchKit Extension.appex */,
+				F5E081F71AC8493C00949874 /* WatchAudioPlayer WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5E081C31AC8490A00949874 /* WatchAudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				F5E081C61AC8490A00949874 /* AppDelegate.swift */,
+				F5E081C81AC8490A00949874 /* ViewController.swift */,
+				F5E081CA1AC8490A00949874 /* Main.storyboard */,
+				F5E081CD1AC8490A00949874 /* Images.xcassets */,
+				F5E081CF1AC8490A00949874 /* LaunchScreen.xib */,
+				F5E081C41AC8490A00949874 /* Supporting Files */,
+			);
+			path = WatchAudioPlayer;
+			sourceTree = "<group>";
+		};
+		F5E081C41AC8490A00949874 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5E081C51AC8490A00949874 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5E081D91AC8490A00949874 /* WatchAudioPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5E081DC1AC8490A00949874 /* WatchAudioPlayerTests.swift */,
+				F5E081DA1AC8490A00949874 /* Supporting Files */,
+			);
+			path = WatchAudioPlayerTests;
+			sourceTree = "<group>";
+		};
+		F5E081DA1AC8490A00949874 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5E081DB1AC8490A00949874 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5E081EB1AC8493C00949874 /* WatchAudioPlayer WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F5E0820D1AC8495300949874 /* John Legend-All Of Me.mp3 */,
+				F5E081EF1AC8493C00949874 /* InterfaceController.swift */,
+				F5E0820F1AC8497700949874 /* SecondInterfaceController.swift */,
+				F5E081F11AC8493C00949874 /* NotificationController.swift */,
+				F5E081F31AC8493C00949874 /* Images.xcassets */,
+				F5E081EC1AC8493C00949874 /* Supporting Files */,
+			);
+			path = "WatchAudioPlayer WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		F5E081EC1AC8493C00949874 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5E081ED1AC8493C00949874 /* Info.plist */,
+				F5E081EE1AC8493C00949874 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5E081FB1AC8493C00949874 /* WatchAudioPlayer WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				F5E081FE1AC8493C00949874 /* Interface.storyboard */,
+				F5E082011AC8493C00949874 /* Images.xcassets */,
+				F5E081FC1AC8493C00949874 /* Supporting Files */,
+			);
+			path = "WatchAudioPlayer WatchKit App";
+			sourceTree = "<group>";
+		};
+		F5E081FC1AC8493C00949874 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5E081FD1AC8493C00949874 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5E081C01AC8490A00949874 /* WatchAudioPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5E081E01AC8490A00949874 /* Build configuration list for PBXNativeTarget "WatchAudioPlayer" */;
+			buildPhases = (
+				F5E081BD1AC8490A00949874 /* Sources */,
+				F5E081BE1AC8490A00949874 /* Frameworks */,
+				F5E081BF1AC8490A00949874 /* Resources */,
+				F5E0820C1AC8493C00949874 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5E082041AC8493C00949874 /* PBXTargetDependency */,
+			);
+			name = WatchAudioPlayer;
+			productName = WatchAudioPlayer;
+			productReference = F5E081C11AC8490A00949874 /* WatchAudioPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5E081D51AC8490A00949874 /* WatchAudioPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5E081E31AC8490A00949874 /* Build configuration list for PBXNativeTarget "WatchAudioPlayerTests" */;
+			buildPhases = (
+				F5E081D21AC8490A00949874 /* Sources */,
+				F5E081D31AC8490A00949874 /* Frameworks */,
+				F5E081D41AC8490A00949874 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5E081D81AC8490A00949874 /* PBXTargetDependency */,
+			);
+			name = WatchAudioPlayerTests;
+			productName = WatchAudioPlayerTests;
+			productReference = F5E081D61AC8490A00949874 /* WatchAudioPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5E081E91AC8493C00949874 /* WatchAudioPlayer WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5E082091AC8493C00949874 /* Build configuration list for PBXNativeTarget "WatchAudioPlayer WatchKit Extension" */;
+			buildPhases = (
+				F5E081E61AC8493C00949874 /* Sources */,
+				F5E081E71AC8493C00949874 /* Frameworks */,
+				F5E081E81AC8493C00949874 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5E081FA1AC8493C00949874 /* PBXTargetDependency */,
+			);
+			name = "WatchAudioPlayer WatchKit Extension";
+			productName = "WatchAudioPlayer WatchKit Extension";
+			productReference = F5E081EA1AC8493C00949874 /* WatchAudioPlayer WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		F5E081F61AC8493C00949874 /* WatchAudioPlayer WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5E082061AC8493C00949874 /* Build configuration list for PBXNativeTarget "WatchAudioPlayer WatchKit App" */;
+			buildPhases = (
+				F5E081F51AC8493C00949874 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchAudioPlayer WatchKit App";
+			productName = "WatchAudioPlayer WatchKit App";
+			productReference = F5E081F71AC8493C00949874 /* WatchAudioPlayer WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5E081B91AC8490A00949874 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = NSoojin;
+				TargetAttributes = {
+					F5E081C01AC8490A00949874 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					F5E081D51AC8490A00949874 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = F5E081C01AC8490A00949874;
+					};
+					F5E081E91AC8493C00949874 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					F5E081F61AC8493C00949874 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = F5E081BC1AC8490A00949874 /* Build configuration list for PBXProject "WatchAudioPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5E081B81AC8490A00949874;
+			productRefGroup = F5E081C21AC8490A00949874 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5E081C01AC8490A00949874 /* WatchAudioPlayer */,
+				F5E081D51AC8490A00949874 /* WatchAudioPlayerTests */,
+				F5E081E91AC8493C00949874 /* WatchAudioPlayer WatchKit Extension */,
+				F5E081F61AC8493C00949874 /* WatchAudioPlayer WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5E081BF1AC8490A00949874 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E081CC1AC8490A00949874 /* Main.storyboard in Resources */,
+				F5E081D11AC8490A00949874 /* LaunchScreen.xib in Resources */,
+				F5E081CE1AC8490A00949874 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E081D41AC8490A00949874 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E081E81AC8493C00949874 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E081F81AC8493C00949874 /* WatchAudioPlayer WatchKit App.app in Resources */,
+				F5E0820E1AC8495300949874 /* John Legend-All Of Me.mp3 in Resources */,
+				F5E081F41AC8493C00949874 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E081F51AC8493C00949874 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E082001AC8493C00949874 /* Interface.storyboard in Resources */,
+				F5E082021AC8493C00949874 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5E081BD1AC8490A00949874 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E081C91AC8490A00949874 /* ViewController.swift in Sources */,
+				F5E081C71AC8490A00949874 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E081D21AC8490A00949874 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E081DD1AC8490A00949874 /* WatchAudioPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E081E61AC8493C00949874 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E081F21AC8493C00949874 /* NotificationController.swift in Sources */,
+				F5E082101AC8497700949874 /* SecondInterfaceController.swift in Sources */,
+				F5E081F01AC8493C00949874 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5E081D81AC8490A00949874 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5E081C01AC8490A00949874 /* WatchAudioPlayer */;
+			targetProxy = F5E081D71AC8490A00949874 /* PBXContainerItemProxy */;
+		};
+		F5E081FA1AC8493C00949874 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5E081F61AC8493C00949874 /* WatchAudioPlayer WatchKit App */;
+			targetProxy = F5E081F91AC8493C00949874 /* PBXContainerItemProxy */;
+		};
+		F5E082041AC8493C00949874 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5E081E91AC8493C00949874 /* WatchAudioPlayer WatchKit Extension */;
+			targetProxy = F5E082031AC8493C00949874 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5E081CA1AC8490A00949874 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E081CB1AC8490A00949874 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5E081CF1AC8490A00949874 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E081D01AC8490A00949874 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		F5E081FE1AC8493C00949874 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E081FF1AC8493C00949874 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5E081DE1AC8490A00949874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5E081DF1AC8490A00949874 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5E081E11AC8490A00949874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = WatchAudioPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5E081E21AC8490A00949874 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = WatchAudioPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5E081E41AC8490A00949874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WatchAudioPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchAudioPlayer.app/WatchAudioPlayer";
+			};
+			name = Debug;
+		};
+		F5E081E51AC8490A00949874 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WatchAudioPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchAudioPlayer.app/WatchAudioPlayer";
+			};
+			name = Release;
+		};
+		F5E082071AC8493C00949874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = WatchAudioPlayer_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchAudioPlayer WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		F5E082081AC8493C00949874 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = WatchAudioPlayer_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchAudioPlayer WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		F5E0820A1AC8493C00949874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WatchAudioPlayer WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F5E0820B1AC8493C00949874 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WatchAudioPlayer WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5E081BC1AC8490A00949874 /* Build configuration list for PBXProject "WatchAudioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E081DE1AC8490A00949874 /* Debug */,
+				F5E081DF1AC8490A00949874 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5E081E01AC8490A00949874 /* Build configuration list for PBXNativeTarget "WatchAudioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E081E11AC8490A00949874 /* Debug */,
+				F5E081E21AC8490A00949874 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5E081E31AC8490A00949874 /* Build configuration list for PBXNativeTarget "WatchAudioPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E081E41AC8490A00949874 /* Debug */,
+				F5E081E51AC8490A00949874 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5E082061AC8493C00949874 /* Build configuration list for PBXNativeTarget "WatchAudioPlayer WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E082071AC8493C00949874 /* Debug */,
+				F5E082081AC8493C00949874 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5E082091AC8493C00949874 /* Build configuration list for PBXNativeTarget "WatchAudioPlayer WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E0820A1AC8493C00949874 /* Debug */,
+				F5E0820B1AC8493C00949874 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5E081B91AC8490A00949874 /* Project object */;
+}
